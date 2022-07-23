@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  
+    background-color: rgb(183 178 178 / 37%) !important;
+}
+.sidebar{
+    background-image: url('https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80');
+    /* background-color: black; */
+    opacity: 0.9;
+    height: 90px;
+    padding: 15px;
+    box-shadow: 5px 5px #0000004a;;
+}
+.sidebardiv{
+ 
+    padding: 10px;
+    height:60px;
+    background-color: BLACK;
+    opacity: 0.5;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+.item{
+    text-align: right;
+}
+
+.modal-content{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.649) !important;
+}
+table{
+    box-shadow: 5px 5px #0000006e;
+    background-color: white;
+    border-color: #00000030 !important;
+    color: black !important;
+   
+}
+.modal-header{
+    border-bottom: none !important;
+}
+.modal-footer{
+    border-top: none !important;
+}
+.remove{
+    border: none;
+    color: white;
+    background-color: rgb(175, 33, 33);
+}
+.btngreen{
+    border: none;
+    color: white;
+    background-color: green;
+}
+#tlbooks{
+    font-size: 21px;
+    font-weight: bolder;
+    color: green;
+}
