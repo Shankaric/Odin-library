@@ -74,11 +74,13 @@ function books(bookname,bookauthor,bookpage,isread){
     });
 
     tlbooks.innerHTML=sno;
-    console.log(sno);
+          console.log(sno);
     function DeleteRow(remove) {
         document.getElementById("table").deleteRow(remove.parentNode.parentNode.rowIndex);
-          
+          sno--;
+          tlbooks.innerHTML=sno;
+          console.log(sno);
     }
-   
+ 
 
 // }
