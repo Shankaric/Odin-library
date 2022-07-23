@@ -81,6 +81,7 @@ function books(bookname,bookauthor,bookpage,isread){
           tlbooks.innerHTML=sno;
           console.log(sno);
     }
- 
+  tlbooks.innerHTML=sno;
+    console.log(sno); 
 
 // }
